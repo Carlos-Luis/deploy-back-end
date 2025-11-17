@@ -2,11 +2,11 @@
   "name": "uap03-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
-    "seed": "node src/seed/seed.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seed/seed.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
